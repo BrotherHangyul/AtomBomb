@@ -187,7 +187,7 @@ Head Paladin
 		/obj/item/melee/powerfist/f13 = 1,
 		/obj/item/gun/ballistic/automatic/pistol/n99/crusader = 1,
 		/obj/item/ammo_box/magazine/pistol10mm = 2,
-		/obj/item/reagent_containers/hypospray/medipen/stimpak = 3
+		/obj/item/reagent_containers/hypospray/medipen/stimpak = 3,
 		/obj/item/flashlight/seclite = 1
 		)
 
@@ -212,7 +212,6 @@ Head Paladin
 	backpack_contents = list(
 		/obj/item/minigunpack = 1
 	)
-
 
 /*
 Head Scribe
@@ -882,11 +881,10 @@ Knight
 	loadout_options = list(
 	/datum/outfit/loadout/knighta, //AER9 J
 	/datum/outfit/loadout/knightc, //AER9 S
-	/datum/outfit/loadout/knighte //Engi J
-	/datum/outfit/loadout/knightf //Engi S
+	/datum/outfit/loadout/knighte, //Engi J
+	/datum/outfit/loadout/knightf, //Engi S
 	/datum/outfit/loadout/knightb, //BF + Shield J
 	/datum/outfit/loadout/knightd //BF + Shield S
-	
 	)
 
 	outfit = /datum/outfit/job/bos/f13knight
@@ -982,26 +980,26 @@ Knight
 	name = "Junior Knight-Engineer"
 	suit = /obj/item/clothing/suit/armor/light/combat/brotherhood/scout
 	backpack_contents = list(
-		/obj/item/clothing/accessory/bos/juniorknight = 1
-		/obj/item/storage/belt/utility/full = 1
-		/obj/item/stack/sheet/metal/fifty = 1
-		/obj/item/stack/sheet/glass/fifty = 1
-		/obj/item/gun/ballistic/shotgun/police = 1
-		/obj/item/ammo_box/shotgun/buck = 2
-		/obj/item/clothing/mask/gas/welding =1
+		/obj/item/clothing/accessory/bos/juniorknight = 1,
+		/obj/item/storage/belt/utility/full = 1,
+		/obj/item/stack/sheet/metal/fifty = 1,
+		/obj/item/stack/sheet/glass/fifty = 1,
+		/obj/item/gun/ballistic/shotgun/police = 1,
+		/obj/item/ammo_box/shotgun/buck = 2,
+		/obj/item/clothing/mask/gas/welding = 1
 		)
 
 /datum/outfit/loadout/knightf
 	name = "Knight-Engineer"
 	suit = /obj/item/clothing/suit/armor/light/combat/brotherhood/scout
 	backpack_contents = list(
-		/obj/item/clothing/accessory/bos/knight = 1
-		/obj/item/storage/belt/utility/full = 1
-		/obj/item/stack/sheet/metal/fifty = 1
-		/obj/item/stack/sheet/glass/fifty = 1
-		/obj/item/gun/ballistic/shotgun/police = 1
-		/obj/item/ammo_box/shotgun/buck = 2
-		/obj/item/clothing/mask/gas/welding =1
+		/obj/item/clothing/accessory/bos/knight = 1,
+		/obj/item/storage/belt/utility/full = 1,
+		/obj/item/stack/sheet/metal/fifty = 1,
+		/obj/item/stack/sheet/glass/fifty = 1,
+		/obj/item/gun/ballistic/shotgun/police = 1,
+		/obj/item/ammo_box/shotgun/buck = 2,
+		/obj/item/clothing/mask/gas/welding = 1
 		)
 
 /*
